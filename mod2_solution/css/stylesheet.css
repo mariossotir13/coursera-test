@@ -5,6 +5,10 @@
 h1 {
 	margin-bottom: 15px
 }
+
+p {
+	color: red;
+}
 .row {
 	width: 100%
 }
@@ -17,7 +21,7 @@ h1 {
 	}
 }
 
-@media (min-width: 772px) and (991px) {
+@media (min-width: 772px) and (max-width: 991px) {
 	.col-md-1, .col-md-2 {
 		float: left;
 		border: 1px solid black;
